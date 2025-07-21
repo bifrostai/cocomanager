@@ -32,11 +32,6 @@ types-tqdm = "^4.67.0.20250516"
 name = "PyPI"
 priority = "primary"
 
-[[tool.poetry.source]]
-name = "gitlab-pub"
-url = "https://gitlab.com/api/v4/projects/41231688/packages/pypi"
-priority = "explicit"
-
 [tool.ruff]
 line-length = 120
 
