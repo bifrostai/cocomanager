@@ -1,0 +1,106 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Car"
+        },
+        {
+            "id": 2,
+            "name": "Van"
+        },
+        {
+            "id": 3,
+            "name": "Truck"
+        },
+        {
+            "id": 4,
+            "name": "Bus"
+        }
+    ],
+    "images": [
+        {
+            "id": 1,
+            "file_name": "0000000.jpg",
+            "width": 1920,
+            "height": 1080
+        },
+        {
+            "id": 2,
+            "file_name": "0000001.jpg",
+            "width": 1920,
+            "height": 1080
+        }
+    ],
+    "annotations": [
+        {
+            "id": 1,
+            "image_id": 1,
+            "category_id": 3,
+            "bbox": [
+                757,
+                423,
+                283,
+                201
+            ],
+            "area": 43633,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 2,
+            "image_id": 1,
+            "category_id": 2,
+            "bbox": [
+                1611,
+                519,
+                120,
+                45
+            ],
+            "area": 4315,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 3,
+            "image_id": 1,
+            "category_id": 3,
+            "bbox": [
+                1525,
+                512,
+                68,
+                49
+            ],
+            "area": 2850,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 4,
+            "image_id": 2,
+            "category_id": 2,
+            "bbox": [
+                1041,
+                505,
+                79,
+                74
+            ],
+            "area": 4770,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 5,
+            "image_id": 2,
+            "category_id": 1,
+            "bbox": [
+                0,
+                530,
+                51,
+                31
+            ],
+            "area": 1274,
+            "segmentation": [],
+            "iscrowd": 0
+        }
+    ]
+}

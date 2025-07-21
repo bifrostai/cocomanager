@@ -1,0 +1,17 @@
+{
+    "correct": {
+        "1": {
+            "bbox": [10,20,30,40],
+            "category_id": 2
+        },
+        "2": {
+            "bbox": [5,6,7,8]
+        }
+    },
+    "incorect_cat": {
+        "1": {"category_id": 5}
+    },
+    "incorect_bbox": {
+        "1": {"bbox": [1,2,3]}
+    }
+}
