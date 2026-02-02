@@ -1,8 +1,8 @@
 import importlib.metadata
 from typing import List
 
-from cocomanager.core.functions import annotate_all_images, concat, validatate_coco
-from cocomanager.core.parser import COCOParser
+from bifrost.cocomanager.core.functions import annotate_all_images, concat, validatate_coco
+from bifrost.cocomanager.core.parser import COCOParser
 
 
 def __dir__() -> List[str]:

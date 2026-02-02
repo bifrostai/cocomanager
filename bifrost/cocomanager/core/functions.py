@@ -12,8 +12,8 @@ import ujson as json
 from PIL import Image
 from pydantic import ValidationError
 
-from cocomanager.core.parser import COCOParser
-from cocomanager.models.coco import (
+from bifrost.cocomanager.core.parser import COCOParser
+from bifrost.cocomanager.models.coco import (
     CocoCategory,
     CocoDetectionAnnotation,
     CocoImages,
