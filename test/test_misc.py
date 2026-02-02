@@ -1,7 +1,7 @@
 import pandas as pd
 import pytest
 
-import cocomanager as cm
+import bifrost.cocomanager as cm
 
 
 @pytest.fixture

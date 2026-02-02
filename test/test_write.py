@@ -6,7 +6,7 @@ from typing import Literal
 
 import pytest
 
-import cocomanager as cm
+import bifrost.cocomanager as cm
 
 
 def clear_tmp():

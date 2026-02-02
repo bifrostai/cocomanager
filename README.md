@@ -28,7 +28,7 @@ To run the annotations manager, you will need:
 
 COCO manager allows you to perform several manipulation on the object detection annotations but would require parsing into the `COCOParser` class first.
 ```python
-import cocomanager as cm
+import bifrost.cocomanager as cm
 
 coco_parser = cm.COCOParser("/path/to/coco_file", img_dir="path/to/images")
 

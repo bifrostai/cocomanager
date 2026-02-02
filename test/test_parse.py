@@ -3,7 +3,7 @@ from ast import literal_eval
 import pandas as pd
 import pytest
 
-import cocomanager as cm
+import bifrost.cocomanager as cm
 
 
 def load_test_data(format: str):

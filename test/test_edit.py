@@ -3,7 +3,7 @@ import json
 import pytest
 from pydantic import ValidationError
 
-import cocomanager as cm
+import bifrost.cocomanager as cm
 
 
 def test_clip_bbox():

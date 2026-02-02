@@ -1,9 +1,12 @@
 [tool.poetry]
-name = "cocomanager"
+name = "bifrost-cocomanager"
 version = "2.0.0"
 description = "Package to manage and edit COCO annotations"
 authors = ["Leon Tham <leon_tham@bifrost.ai>"]
 readme = "README.md"
+packages = [
+    { include = "bifrost" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -16,6 +19,7 @@ pydantic = "^2.11.7"
 rich = "^13.4.2"
 rich-click = "^1.6.1"
 imagesize = "^1.4.1"
+pyyaml = "^6.0.3"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.1.1"
